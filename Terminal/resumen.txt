@@ -1,0 +1,5 @@
+pwd
+mv
+mkdir
+touch
+ls
