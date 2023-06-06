@@ -1,0 +1,36 @@
+  473  mkdir 20230605-CarlosColmenares
+  474  cd 20230605-CarlosColmenares/
+  476  git init
+  477  git remote add origin https://github.com/carlosshmx/20230605-CarlosColmenares.git
+  478  touch comandos.txt main.js index.html
+  479  git add .
+  480  git commit -m "commit 01 de CarlosColmenares"
+  481  git push origin master
+  482  git branch feature01
+  483  git checkout feature01 
+  484  mkdir Terminal Hardware
+  485  cd Terminal/
+  486  touch resumen.txt
+  487  cd ..
+  488  cd Hardware/
+  489  touch resumen.txt
+  490  cd ..
+  491  git add .
+  492  git commit -m "commit 02 de CarlosColmenares"
+  493  git push origin feature01 
+  494  git branch feature01
+  495  git branch feature02
+  496  git checkout feature02
+  497  cd Terminal/
+  498  nano resumen.txt 
+  499  cd ..
+  500  cd Hardware/
+  501  nano resumen.txt 
+  502  cd ..
+  503  git add .
+  504  git commit -m "commit 03 de CarlosColmenares"
+  505  git push origin feature02
+  506  git checkout naster
+  507  git checkout master
+  508  histrory 50 > comandos.txt 
+  509  history 50 > comandos.txt 
